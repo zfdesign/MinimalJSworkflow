@@ -1,0 +1,25 @@
+{
+  "name": "MinimalJSworkflow",
+  "version": "1.0.0",
+  "description": "by Kamil Ogórek   Nov 21, 2016",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ava": "^0.17.0",
+    "chokidar-cli": "^1.2.0",
+    "precommit-hook": "^3.0.0",
+    "standard": "^8.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "ava",
+    "lint": "standard",
+    "dev": "chokidar '**/*.js' -c 'standard && ava'"
+    },
+  "pre-commit": ["test", "lint"],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
