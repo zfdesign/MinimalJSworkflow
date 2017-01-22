@@ -3,7 +3,7 @@
 
 by Kamil Ogórek   Nov 21, 2016
 
-[based on this article](https://dev.to/corgibytes/setting-up-a-minimal-yet-useful-javascript-dev-environment)
+[Based on this article](https://dev.to/corgibytes/setting-up-a-minimal-yet-useful-javascript-dev-environment)
 
 ## Init Node.js project and GIT repository
 
@@ -49,9 +49,9 @@ The same goes for creating GIT commits. You won’t be able to do so, unless all
 
 Two things worth noting:
 
-* You don’t have to install standard or ava globally, 
+1. You don’t have to install standard or ava globally, 
 as they are run from within the node context.
-* Because we use `&&` instead of `;` here in the `dev` script, 
+2. Because we use `&&` instead of `;` here in the `dev` script, 
 tests won’t be triggered unless you pass linter rules. 
 It makes the feedback loop even faster.
 
@@ -134,9 +134,8 @@ We, as developers, are often charmed by shiny new tools. We seem to forget that 
 Once your project starts to grow, you may find yourself in need of something more complex. In most cases, however, it just won’t happen. And those tools will suit your needs quite well for a long, long time.
  
 Kamil Ogórek
-[https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/616/1523305.jpeg]
-twitter [kamilogorek](http://twitter.com/kamilogorek)  github [kamilogorek](http://github.com/kamilogorek)  link [kamilogorek.pl](kamilogorek.pl)
+twitter: [kamilogorek](http://twitter.com/kamilogorek) github: [kamilogorek](http://github.com/kamilogorek) link: [kamilogorek.pl](kamilogorek.pl)
 
 <aside class="notice">
-Note: This is all based on the article from the link above. All credit goes to the original author. 
+Note: This is all based on the article from the link above. All credit goes to the original author.
 </aside>
